@@ -1,0 +1,18 @@
+
+@keyframes navbb {
+
+    10%{background-color: rgb(41, 241, 68);}
+    30%{background-color: rgb(99, 41, 153);}
+    40%{background-color: rgb(247, 219, 97);}
+    
+}
+.min{
+    /* animation-name: navbb;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; */
+    background: linear-gradient(
+        rgb(89, 148, 23),rgb(51, 40, 15)
+    );
+    box-shadow: black 1px 1px 9px;
+}
+
