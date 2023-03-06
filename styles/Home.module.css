@@ -7,12 +7,49 @@
     
 }
 .min{
+    font-family: 'Lalezar', cursive;
+    color: aliceblue;
     /* animation-name: navbb;
     animation-duration: 1s;
     animation-iteration-count: infinite; */
-    background: linear-gradient(
+    /* background: linear-gradient(
         rgb(89, 148, 23),rgb(51, 40, 15)
     );
-    box-shadow: black 1px 1px 9px;
+    box-shadow: black 1px 1px 9px; */
 }
 
+.pvc{
+    color: aliceblue;
+}
+.home{
+    color: rgb(141, 175, 94);
+    background: linear-gradient(to right,
+    rgb(5, 6, 44),rgb(15, 96, 128)
+);
+margin: 11px;
+text-align: center;
+border-radius: 4px;
+
+
+}
+.home:hover{
+    box-shadow: navy 1px 1px 8px;
+}
+.imgsh{
+    border-radius: 11px;
+    box-shadow: rgb(0, 0, 0) 2px 2px 9px;
+}
+.shademanp{
+    text-shadow: rgb(252, 252, 252) 2px 2px 19px;
+    margin-top: 31px;
+    color: rgb(0, 0, 0);
+    box-shadow: black 2px 2px 9px;
+    padding: 11px;
+    border-radius: 11px;
+    font-family: 'Lalezar', cursive;
+}
+.bg1{
+    background-size: cover;
+    background-image: url("https://5.imimg.com/data5/UI/IW/MY-2544811/upvc-window-doors-500x500.jpg");
+    padding: 10px;
+}
