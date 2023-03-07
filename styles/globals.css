@@ -1,9 +1,12 @@
 
-  
+  *{
+    font-family: 'Lalezar', cursive;
+  }
 body{
-  font-family: 'Lalezar', cursive;
+  
  color: white;
   background: linear-gradient(to left,
     rgb(5, 6, 44),rgb(15, 96, 128)
 );
+
 }
