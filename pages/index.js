@@ -77,18 +77,18 @@ export default function Home() {
                     <img width={60} src='/icon.png' />
                   </Col>
                   <Col >
-                    <Link href={"/upvc/i1.jpg"}>
+                    <Link href={"/upvc/i1.jpg"} target={"#"}>
                       <img className={styles.imgs} width={150} src='/upvc/i1.jpg' />
 
                     </Link>
                   </Col>
                   <Col >
-                    <p>نمونه اجرا شده برای مشتری عزیز
+                    <p className={styles.pp}>نمونه اجرا شده برای مشتری عزیز
                       با طرح دکوراتیو طلایی</p>
 
                     <hr />
 
-                    <p className={styles.code}>کد 220</p>
+                    <p className={styles.code}>کد 10</p>
                   </Col>
 
 
@@ -100,21 +100,210 @@ export default function Home() {
 
 
             <Col sm={4}>
-
               <Container>
 
 
                 <Row className={styles.upvcimg}>
+                  <Col sm={12}>
+                    <img width={60} src='/icon.png' />
+                  </Col>
                   <Col >
-                    <img width={140} src='/icon.png' />
+                    <Link href={"/upvc/i2.jpg"} target={"#"}>
+                      <img className={styles.imgs} width={150} src='/upvc/i2.jpg' />
 
+                    </Link>
                   </Col>
                   <Col >
-                    <p>بی وی سی براق</p>
+                    <p className={styles.pp}>
+                    نمونه پنجره با دکوراتیو خطی طلایی
+                    </p>
+
+                    <hr />
+
+                    <p className={styles.code}>کد 20</p>
                   </Col>
+
+
                 </Row>
               </Container>
             </Col>
+
+
+
+
+
+
+
+            <Col sm={8}>
+              <Container>
+
+
+                <Row className={styles.upvcimg}>
+                  <Col sm={12}>
+                    <img width={60} src='/icon.png' />
+                  </Col>
+                  <Col >
+                    <Link href={"/upvc/i3.jpg"} target={"#"}>
+                      <img className={styles.imgs} width={150} src='/upvc/i3.jpg' />
+
+                    </Link>
+                  </Col>
+                  <Col >
+                    <p className={styles.pp}>
+                    پنجره های طرح هلالی
+
+                    </p>
+
+                    <hr />
+
+                    <p className={styles.code}>کد 30</p>
+                  </Col>
+
+
+                </Row>
+              </Container>
+            </Col>
+
+
+            <Col sm={3}>
+              <Container>
+
+
+                <Row className={styles.upvcimg}>
+                  <Col sm={12}>
+                    <img width={60} src='/icon.png' />
+                  </Col>
+                  <Col >
+                    <Link href={"/upvc/i4.jpg"} target={"#"}>
+                      <img className={styles.imgs} width={150} src='/upvc/i4.jpg' />
+
+                    </Link>
+                  </Col>
+                  <Col >
+                    <p className={styles.pp}>
+                    قابل اجرا برای درب سرویس.حمام.راهرو.ورودی و.....با دکوراتیو شیشه طلایی و سفید
+                    </p>
+
+                    <hr />
+
+                    <p className={styles.code}>کد 40</p>
+                  </Col>
+
+
+                </Row>
+              </Container>
+            </Col>
+
+
+
+
+
+            <Col sm={5}>
+              <Container>
+
+
+                <Row className={styles.upvcimg}>
+                  <Col sm={12}>
+                    <img width={60} src='/icon.png' />
+                  </Col>
+                  <Col >
+                    <Link href={"/upvc/i5.jpg"} target={"#"}>
+                      <img className={styles.imgs} width={150} src='/upvc/i5.jpg' />
+
+                    </Link>
+                  </Col>
+                  <Col >
+                    <p className={styles.pp}>
+                    اجرای درب و پنجره با دکوراتیو طرح دار سفید و طلایی
+                    </p>
+
+                    <hr />
+
+                    <p className={styles.code}>کد 50</p>
+                  </Col>
+
+
+                </Row>
+              </Container>
+            </Col>
+
+
+
+
+
+
+
+            <Col sm={6}>
+              <Container>
+
+
+                <Row className={styles.upvcimg}>
+                  <Col sm={12}>
+                    <img width={60} src='/icon.png' />
+                  </Col>
+                  <Col >
+                    <Link href={"/upvc/i6.jpg"} target={"#"}>
+                      <img className={styles.imgs} width={150} src='/upvc/i6.jpg' />
+
+                    </Link>
+                  </Col>
+                  <Col >
+                    <p className={styles.pp}>
+                    پنل دکوراتیو ساخت ترکیه..قابل اجرا برای درب سرویس.حمام.راهرو.ورودی و.....با عرض 90 سانت ب بالا
+                    </p>
+
+                    <hr />
+
+                    <p className={styles.code}>کد 60</p>
+                  </Col>
+
+
+                </Row>
+              </Container>
+            </Col>
+
+
+
+
+
+
+            <Col sm={4}>
+              <Container>
+
+
+                <Row className={styles.upvcimg}>
+                  <Col sm={12}>
+                    <img width={60} src='/icon.png' />
+                  </Col>
+                  <Col >
+                    <Link href={"/upvc/i7.jpg"} target={"#"}>
+                      <img className={styles.imgs} width={150} src='/upvc/i7.jpg' />
+
+                    </Link>
+                  </Col>
+                  <Col >
+                    <p className={styles.pp}>
+                    نمونه کار شیشه دکوراتیو طرحدار قابل اجرا با آیینه
+                    </p>
+
+                    <hr />
+
+                    <p className={styles.code}>کد 70</p>
+                  </Col>
+
+
+                </Row>
+              </Container>
+            </Col>
+
+
+
+
+
+
+
+
+
 
           </Row>
 
