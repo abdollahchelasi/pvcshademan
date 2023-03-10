@@ -1180,7 +1180,7 @@ export default function Home() {
             </Col>
 
             <Col className={styles.foot}>
-            <p>طراحی و توسعه توسط <a href='https://abdollahchelasi.vercel.app/' className={styles.abd}><b> عبدالله چلاسی </b></a> می باشد .</p>
+            <p>طراحی و توسعه توسط <a target={"#"} href='https://abdollahchelasi.vercel.app/' className={styles.abd}><b> عبدالله چلاسی </b></a> می باشد .</p>
             </Col>
 
             
