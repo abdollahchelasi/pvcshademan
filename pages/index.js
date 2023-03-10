@@ -99,7 +99,7 @@ export default function Home() {
 
 
 
-            <Col sm={4}>
+            <Col sm={8}>
               <Container>
 
 
@@ -165,7 +165,7 @@ export default function Home() {
             </Col>
 
 
-            <Col sm={3}>
+            <Col sm={7}>
               <Container>
 
 
@@ -198,7 +198,7 @@ export default function Home() {
 
 
 
-            <Col sm={5}>
+            <Col sm={6}>
               <Container>
 
 
@@ -267,7 +267,7 @@ export default function Home() {
 
 
 
-            <Col sm={4}>
+            <Col sm={8}>
               <Container>
 
 
@@ -299,7 +299,34 @@ export default function Home() {
 
 
 
+            <Col sm={8}>
+              <Container>
 
+
+                <Row className={styles.upvcimg}>
+                  <Col sm={12}>
+                    <img width={60} src='/icon.png' />
+                  </Col>
+                  <Col >
+                    <Link href={"/upvc/i8.jpg"} target={"#"}>
+                      <img className={styles.imgs} width={150} src='/upvc/i8.jpg' />
+
+                    </Link>
+                  </Col>
+                  <Col >
+                    <p className={styles.pp}>
+                    درب دکوراتیو شیشه سفید رنگ
+                    </p>
+
+                    <hr />
+
+                    <p className={styles.code}>کد 80</p>
+                  </Col>
+
+
+                </Row>
+              </Container>
+            </Col>
 
 
 
