@@ -1,0 +1,225 @@
+
+@keyframes navbb {
+
+    10%{background-color: rgb(41, 241, 68);}
+    30%{background-color: rgb(99, 41, 153);}
+    40%{background-color: rgb(247, 219, 97);}
+    
+}
+.img1{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 11px;
+    border-radius: 21px;
+}
+.h22{
+    background: linear-gradient(to right,
+    rgb(9, 9, 27),rgb(9, 99, 134)
+);
+border-bottom-left-radius: 21px;
+border-bottom-right-radius: 21px;
+box-shadow: black 2px 2px 9px;
+color: wheat;
+}
+.min{
+    position: fixed;
+    font-family: 'Lalezar', cursive;
+    color: aliceblue;
+    background: linear-gradient(to right,
+    rgb(5, 26, 20),rgb(13, 115, 150)
+);   /* animation-name: navbb;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; */
+    /* background: linear-gradient(
+        rgb(89, 148, 23),rgb(51, 40, 15)
+    );
+    box-shadow: black 1px 1px 9px; */
+}
+
+.pvc{
+    color: aliceblue;
+}
+#btn{
+    background: linear-gradient(to right,
+    rgb(4, 109, 79),rgb(70, 142, 167)
+);
+}
+#btn:hover{
+    background: linear-gradient(to right,
+    rgb(50, 223, 174),rgb(63, 188, 230)
+);
+}
+.home{
+    
+    color: rgb(214, 231, 189);
+    background: linear-gradient(to right,
+    rgb(4, 109, 79),rgb(18, 48, 58)
+);
+margin: 11px;
+text-align: center;
+border-radius: 4px;
+
+
+
+}
+.home:hover{
+    background: linear-gradient(to right,
+    rgb(5, 26, 20),rgb(98, 188, 218)
+);
+    box-shadow: rgb(112, 112, 233) 1px 1px 8px;
+}
+.imgsh{
+    border-radius: 11px;
+    box-shadow: rgb(0, 0, 0) 2px 2px 9px;
+    margin: 10px;
+}
+
+.imgs:hover{
+    border-style: groove;
+}
+.imgs{
+    border-radius: 11px;
+    box-shadow: black 2px 2px 9px;
+    margin: 10px;
+
+}
+.code{
+    
+    border-radius: 5px;
+    background: linear-gradient(to right,
+    rgb(50, 50, 70),rgb(8, 21, 26)
+);
+text-align: center;
+color: wheat;
+}
+.shademanp{
+    text-shadow: rgb(252, 252, 252) 2px 2px 19px;
+    margin-top: 31px;
+    color: rgb(0, 0, 0);
+    box-shadow: black 2px 2px 9px;
+    padding: 11px;
+    border-radius: 11px;
+    font-family: 'Lalezar', cursive;
+    margin-bottom: 10px;
+}
+
+@keyframes dekor {
+    10%{border-color: rgb(0, 140, 255);}
+    20%{border-color: rgb(81, 255, 0);}
+    40%{border-color: rgb(0, 255, 242);}
+
+}
+
+.dekor{
+    animation-name: dekor;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    color: rgb(141, 204, 100);
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgb(181, 212, 40);
+    border-style: dashed;
+    background: linear-gradient(to right,
+    rgb(50, 50, 70),rgb(14, 154, 209)
+);
+}
+.pp{
+   box-shadow: black 2px 2px 9px;
+    color: rgb(18, 37, 30);
+    padding: 4px;
+    border-radius: 4px;
+    border-style: dashed;
+    text-align: center;
+}
+.bg1{
+    background-size: cover;
+    background-image: url("https://5.imimg.com/data5/UI/IW/MY-2544811/upvc-window-doors-500x500.jpg");
+    padding: 10px;
+    margin-bottom: 45px;
+}
+
+.upvcimg{
+    border-radius: 7px;
+    box-shadow: rgb(0, 0, 0) 1px 1px 9px;
+    background-color: aliceblue;
+    margin: 50px;
+    padding: 10px;
+}
+
+
+.up{
+   
+    border-radius: 5px;
+    padding: 11px;
+    text-align: center;
+}
+.upv{
+    border-radius: 5px;
+    box-shadow: black 2px 2px 11px;
+}
+.saiban{
+    background: linear-gradient(to right,
+    rgb(50, 50, 70),rgb(14, 154, 209)
+);
+    padding: 11px;
+    color: wheat;
+    border-top-right-radius: 11px;
+    border-bottom-left-radius: 14px;
+    border-style: groove;
+    
+}
+.sh{
+    width: 90px;
+    border-radius: 22px;
+    box-shadow: black 2px 2px 9px;
+    margin-bottom: 11px;
+}
+.tamas{
+    margin-bottom: 33px;
+
+}
+.ahmad{
+   border-radius: 11px;
+   color: brown;
+padding: 4px;
+}
+@keyframes pch {
+    10%{color: blue;}
+    30%{color: rgb(63, 218, 96);}
+    40%{color: rgb(8, 54, 28);}
+}
+.pch{
+    animation-name: pch;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    color: rgb(10, 57, 78);
+}
+
+
+.foot{
+    margin-top: 41px;
+    margin: 11px;
+    border-radius: 11px;
+    text-align: center;
+    color: antiquewhite;
+}
+.abd{
+    background: linear-gradient(to right,
+    rgb(50, 50, 70),rgb(71, 26, 14)
+);    margin: 3px;
+    text-decoration: none;
+    color: rgb(83, 224, 205);
+    padding: 3px;
+    border-radius: 4px;
+    border-style: groove;
+}
+.abd:hover{
+    background: linear-gradient(to right,
+    rgb(50, 50, 70),rgb(247, 97, 27)
+    
+);
+color: aliceblue;
+border-style: dashed;
+border-color: rgb(255, 255, 255);
+}
